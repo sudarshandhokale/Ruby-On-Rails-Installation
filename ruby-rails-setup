@@ -1,0 +1,29 @@
+sudo apt-get install git-core
+sudo add-apt-repository ppa:webupd8team/sublime-text-3
+sudo apt-get update
+sudo apt-get install sublime-text-installer
+sudo apt-get install curl
+curl -L get.rvm.io | bash -s stable
+gpg --keyserver hkp://keys.gnupg.net --recv-keys D39DC0E3
+rvm requirements --autolibs=enable
+curl -L get.rvm.io | bash -s stable --rails
+source ~/.rvm/scripts/'rvm'
+rvm requirements
+rvm get head
+rvm fix-permissions
+sudo apt-get install build-essential bison openssl curl git-core zlib1g zlib1g-dev libssl-dev libsqlite3-0 libsqlite3-dev sqlite3 libxml2-dev
+sudo apt-get install libcurl4-openssl-dev
+sudo apt-get install rails
+gem install rails
+sudo apt-get install mysql-server
+sudo apt-get install libmysql-ruby
+sudo apt-get install libmysqlclient-dev
+gem install mysql
+sudo apt-get install python-software-properties
+sudo add-apt-repository ppa:pitti/postgresql
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install postgresql
+sudo apt-get install postgresql libpq-dev
+sudo apt-get install postgresql-server-dev-9.3
+gem install pg
